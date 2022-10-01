@@ -1,0 +1,181 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'ABeeZee', sans-serif;
+  color: whitesmoke;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("./photos/background2.jpg");
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(188, 29, 174);
+}
+
+a:visited {
+  color: rgb(202, 76, 146)
+}
+
+a:hover {
+  color: whitesmoke;
+}
+/*Portfolio Info*/
+.info {
+  flex-grow: 0.5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(3, 7, 107);
+}
+
+.name {
+  font-size: 40px;
+}
+
+.title {
+  font-size: 24px;
+}
+
+.description {
+  font-size: 20px;
+}
+
+.project-header {
+  font-size: 30px;
+}
+
+.project-header:hover {
+  transform: scale(1.5);
+}
+
+.project-text {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.technology {
+  visibility: hidden;
+}
+
+/* HiTail */
+.hitail-container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 800px;
+  width: 100%;
+  margin: 10px;
+  /* border-bottom: 3px solid rgb(188, 29, 174); */
+  /* background-color: rgb(31, 2, 126); */
+}
+
+.hitail-image {
+  height: 150px;
+  width: 100px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.hitail-container div {
+  max-height: 150px;
+  width: 55%;
+  background-color: rgb(3, 7, 107);
+}
+
+/* Mario Kart 8 Deluxe Draft */
+.deluxedraft-container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 800px;
+  width: 100%;
+  /* margin: 10px; */
+  /* border-bottom: 3px solid rgb(188, 29, 174);; */
+}
+
+
+.deluxedraft-image {
+  height: 100px;
+  width: 150px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.deluxedraft-container div {
+  max-height: 150px;
+  width: 55%;
+  background-color: rgb(3, 7, 107);
+}
+
+/* Tamagotchi */
+.tamagotchi-container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 800px;
+  width: 100%;
+}
+
+.tamagotchi-image {
+  height: 150px;
+  width: 100px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.tamagotchi-container div {
+  max-height: 150px;
+  width: 55%;
+  background-color: rgb(3, 7, 107);
+}
+
+@media (min-width: 600px) {
+  .project-text {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+
+  .technology{
+    font-size: 16px;
+    visibility: visible;
+    margin-top: 10px;
+  }
+
+  .hitail-container {
+    align-self: center;
+  }
+
+  .hitail-image {
+    height: 200px;
+    width: 150px;
+  }
+
+  .deluxedraft-container {
+    align-self: center;
+  }
+
+  .deluxedraft-image {
+    height: 150px;
+    width: 250px;
+  }
+
+  .tamagotchi-container {
+    align-self: center;
+  }
+
+  .tamagotchi-image {
+    height: 200px;
+    width: 150px;
+  }
+}
