@@ -77,8 +77,9 @@ a:hover {
   max-width: 800px;
   width: 100%;
   margin: 30px;
-  background-color: rgb(3, 7, 107);
-  /* background-color: rgb(31, 2, 126); */
+  background-color: rgb(42,10,115);
+  border: 2px solid rgb(188, 29, 174);
+  border-radius: 10px;
 }
 
 .hitail-image {
@@ -91,7 +92,6 @@ a:hover {
 .hitail-container div {
   max-height: 150px;
   width: 55%;
-  /* background-color: rgb(3, 7, 107); */
 }
 
 /* Mario Kart 8 Deluxe Draft */
@@ -103,9 +103,9 @@ a:hover {
   max-width: 800px;
   width: 100%;
   margin: 30px;
-  background-color: rgb(3, 7, 107);
-  /* margin: 10px; */
-  /* border-bottom: 3px solid rgb(188, 29, 174);; */
+  background-color: rgb(42,10,115);
+  border: 2px solid rgb(188, 29, 174);
+  border-radius: 10px;
 }
 
 
@@ -119,7 +119,6 @@ a:hover {
 .deluxedraft-container div {
   max-height: 150px;
   width: 55%;
-  /* background-color: rgb(3, 7, 107); */
 }
 
 /* Tamagotchi */
@@ -131,7 +130,9 @@ a:hover {
   max-width: 800px;
   width: 100%;
   margin: 30px;
-  background-color: rgb(3, 7, 107);
+  background-color: rgb(42,10,115);
+  border: 2px solid rgb(188, 29, 174);
+  border-radius: 10px;
 }
 
 .tamagotchi-image {
@@ -144,7 +145,6 @@ a:hover {
 .tamagotchi-container div {
   max-height: 150px;
   width: 55%;
-  /* background-color: rgb(3, 7, 107); */
 }
 
 @media (min-width: 600px) {
