@@ -52,7 +52,7 @@ a:hover {
 }
 
 .project-header {
-  font-size: 30px;
+  font-size: 24px;
 }
 
 .project-header:hover {
@@ -60,12 +60,13 @@ a:hover {
 }
 
 .project-text {
-  font-size: 14px;
-  margin-top: 10px;
+  font-size: 12px;
+  margin: 10px 5px 0 5px;
 }
 
 .technology {
   visibility: hidden;
+  margin: 0 5px;
 }
 
 /* HiTail */
@@ -75,11 +76,11 @@ a:hover {
   justify-content: space-around;
   align-items: center;
   max-width: 800px;
-  width: 100%;
   margin: 30px;
   background-color: rgb(42,10,115);
   border: 2px solid rgb(188, 29, 174);
   border-radius: 10px;
+  padding: 20px 0;
 }
 
 .hitail-image {
@@ -101,11 +102,11 @@ a:hover {
   justify-content: space-around;
   align-items: center;
   max-width: 800px;
-  width: 100%;
   margin: 30px;
   background-color: rgb(42,10,115);
   border: 2px solid rgb(188, 29, 174);
   border-radius: 10px;
+  padding: 20px 0;
 }
 
 
@@ -128,11 +129,11 @@ a:hover {
   justify-content: space-around;
   align-items: center;
   max-width: 800px;
-  width: 100%;
   margin: 30px;
   background-color: rgb(42,10,115);
   border: 2px solid rgb(188, 29, 174);
   border-radius: 10px;
+  padding: 20px 0;
 }
 
 .tamagotchi-image {
@@ -161,6 +162,7 @@ a:hover {
 
   .hitail-container {
     align-self: center;
+    width: 100%;
   }
 
   .hitail-image {
@@ -170,6 +172,7 @@ a:hover {
 
   .deluxedraft-container {
     align-self: center;
+    width: 100%;
   }
 
   .deluxedraft-image {
@@ -179,6 +182,7 @@ a:hover {
 
   .tamagotchi-container {
     align-self: center;
+    width: 100%;
   }
 
   .tamagotchi-image {
