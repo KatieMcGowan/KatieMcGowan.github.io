@@ -69,6 +69,32 @@ a:hover {
   margin: 0 5px;
 }
 
+/* Bookish */
+.bookish-container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 800px;
+  margin: 30px;
+  background-color: rgb(42,10,115);
+  border: 2px solid rgb(188, 29, 174);
+  border-radius: 10px;
+  padding: 20px 0;
+}
+
+.bookish-image {
+  height: 150px;
+  width: 100px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.bookish-container div {
+  max-height: 150px;
+  width: 55%;
+}
+
 /* HiTail */
 .hitail-container {
   flex-grow: 1;
@@ -122,7 +148,8 @@ a:hover {
   width: 55%;
 }
 
-/* Tamagotchi */
+
+/* Tamagotchi  */
 .tamagotchi-container {
   flex-grow: 1;
   display: flex;
@@ -158,6 +185,16 @@ a:hover {
     font-size: 16px;
     visibility: visible;
     margin-top: 10px;
+  }
+
+  .bookish-container {
+    align-self: center;
+    width: 100%;
+  }
+
+  .bookish-image {
+    height: 200px;
+    width: 150px;
   }
 
   .hitail-container {
